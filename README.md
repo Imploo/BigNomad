@@ -1,6 +1,6 @@
 # BigNomad Keyboard
 
-The Nomad is a 9×5 keys, column-staggered split keyboard based largely on the [Nomad Keyboard](https://github.com/fiendie/NomadKeyboard), which is based on the [Sofle Choc by Brian Low](https://github.com/brianlow/SofleKeyboard).
+The BigNomad is a 9×5 keys, column-staggered split keyboard based largely on the [Nomad Keyboard](https://github.com/fiendie/NomadKeyboard), which is based on the [Sofle Choc by Brian Low](https://github.com/brianlow/SofleKeyboard).
 It uses low profile Kailh Choc v1 switches with hotswap sockets and features per-key RGB lighting via SK6812 Mini-E LEDs.
 Compared to the Nomad Keyboard the BigNomad offers an additional numpad as inner columns, an extra thumb cluster key, and an additional modifier key in the 5th row.
 To make the keyboard more compact, support for OLED or pro micro based mcus are dropped. Instead, the mcu must be a RP2040 mini. Added support for a rotary encoder on top of the mcu footprint as well.
