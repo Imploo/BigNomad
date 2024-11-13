@@ -872,7 +872,7 @@
       "plot": "../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "NomadKeyboard.step",
       "svg": "",
       "vrml": ""
     },
