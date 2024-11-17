@@ -2213,22 +2213,10 @@
 		(uuid "cd1faca7-aba3-4216-b090-68eb67d47f53")
 	)
 	(junction
-		(at 388.62 12.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce5e9110-7809-448b-ae36-ff2c1a5fe6a6")
-	)
-	(junction
 		(at 429.26 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0ff92d7-e84d-4e69-8c81-d1d59ce6963d")
-	)
-	(junction
-		(at 373.38 5.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1debe2b-edf1-4e89-b4e7-ea115cde9349")
 	)
 	(junction
 		(at 414.02 53.34)
@@ -2940,7 +2928,7 @@
 	)
 	(wire
 		(pts
-			(xy 373.38 2.54) (xy 373.38 5.08)
+			(xy 373.38 2.54) (xy 373.38 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3277,16 +3265,6 @@
 			(type default)
 		)
 		(uuid "52b83c27-9007-4d6e-9b30-71622235e1c3")
-	)
-	(wire
-		(pts
-			(xy 388.62 12.7) (xy 408.94 12.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c7164a-40ce-4099-86bc-f51b173a132b")
 	)
 	(wire
 		(pts
@@ -3840,7 +3818,7 @@
 	)
 	(wire
 		(pts
-			(xy 368.3 12.7) (xy 388.62 12.7)
+			(xy 368.3 12.7) (xy 408.94 12.7)
 		)
 		(stroke
 			(width 0)
@@ -4737,16 +4715,6 @@
 			(type default)
 		)
 		(uuid "fa4aa9a2-38d1-40c5-810c-2def3f37cbe7")
-	)
-	(wire
-		(pts
-			(xy 373.38 5.08) (xy 373.38 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbb7d96e-f147-4af6-b65c-215b5977805b")
 	)
 	(wire
 		(pts
@@ -13206,86 +13174,6 @@
 	)
 	(symbol
 		(lib_id "SofleKeyboard:SW_PUSH_LED")
-		(at 381 5.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10a9cb8f-bb8c-4360-a675-5d503e91295d")
-		(property "Reference" "SW48"
-			(at 381 1.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_PUSH_LED"
-			(at 381 7.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:Choc_Hotswap_SK6812MiniE"
-			(at 381 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 381 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 381 5.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "da6c8936-1365-46c6-af25-42d32d382aff")
-		)
-		(pin "3"
-			(uuid "4555b9b8-229b-432c-a99c-894c0430fba2")
-		)
-		(pin "4"
-			(uuid "8c3d3f17-ef95-4e7b-978e-f8742edc8bc3")
-		)
-		(pin "6"
-			(uuid "5f8e02a0-f1c3-4dfb-a2f8-e6b88c06ecf6")
-		)
-		(pin "1"
-			(uuid "cae50f55-7f66-4b76-ab5e-720a6fadb99c")
-		)
-		(pin "5"
-			(uuid "06adaa1a-9970-4095-9950-c696cbdcc854")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "SW48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard:SW_PUSH_LED")
 		(at 121.92 88.9 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -16015,76 +15903,6 @@
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "SW35")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SofleKeyboard-rescue:D-Lily58-cache-Lily58_Pro-rescue")
-		(at 388.62 8.89 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "94115ca2-ad9a-41de-87fe-846e816edbc4")
-		(property "Reference" "D56"
-			(at 384.302 7.366 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D"
-			(at 390.6266 10.033 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SofleChoc:crkbd-diode"
-			(at 388.62 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 388.62 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 388.62 8.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "deee0e5f-ce91-43b1-aade-10bdf4c79ecd")
-		)
-		(pin "2"
-			(uuid "ac57c0c0-891a-4e3e-999a-7d9479fd82a0")
-		)
-		(instances
-			(project "NomadKeyboard"
-				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
-					(reference "D56")
-					(unit 1)
 				)
 			)
 		)
