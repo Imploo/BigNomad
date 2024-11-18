@@ -2993,10 +2993,6 @@
 		(at 27.94 26.67)
 		(uuid "239543f6-76e9-4a87-9947-143f63b90a9e")
 	)
-	(no_connect
-		(at 60.96 46.99)
-		(uuid "fdce5f68-5434-463a-993f-9a739bf28afb")
-	)
 	(wire
 		(pts
 			(xy 408.94 27.94) (xy 429.26 27.94)
@@ -3756,6 +3752,16 @@
 			(type default)
 		)
 		(uuid "3c80267e-da45-4b43-8de8-62a8ffbcf5e6")
+	)
+	(wire
+		(pts
+			(xy 60.96 46.99) (xy 73.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c88aa98-877a-4281-b540-de87372cd6dd")
 	)
 	(wire
 		(pts
@@ -15066,7 +15072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VDD"
 			(at 62.6618 71.8058 0)
 			(effects
 				(font
@@ -16214,7 +16220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "VDD"
 			(at 62.6618 98.4758 0)
 			(effects
 				(font
@@ -16256,6 +16262,71 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SofleKeyboard-rescue:GND-Lily58-cache-Lily58_Pro-rescue")
+		(at 81.28 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6a6ea0d0-6c93-47f2-b1b2-38e14fd3db63")
+		(property "Reference" "#PWR06"
+			(at 87.63 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 81.28 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a460a228-b76b-4275-b396-a5a6e57ec4a0")
+		)
+		(instances
+			(project "NomadKeyboard"
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -16803,6 +16874,74 @@
 			(project "NomadKeyboard"
 				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
 					(reference "D35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 77.47 46.99 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7f2ce945-ffe8-4b19-80e4-4309aecff635")
+		(property "Reference" "JP2"
+			(at 77.47 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RightHand"
+			(at 77.47 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4debba4-7506-4768-8a82-e5ffeb2d036f")
+		)
+		(pin "1"
+			(uuid "786290aa-1a96-4496-9f35-5fd374e89378")
+		)
+		(instances
+			(project ""
+				(path "/eaee3b4b-85c3-461f-869e-93e0a5fc0df7"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
