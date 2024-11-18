@@ -153,7 +153,7 @@
 # ----------------------------------- Board Outlines (PICK ONE) -------------------------------------
 #Default Routed Edge Clearance
 (rule "Trace to Outline"
-(constraint edge_clearance (min 0.3mm))
+(constraint edge_clearance (min 0.299mm))
 (condition "A.Type == 'track'"))
 
 #Special Clearance for V-Score Edges
